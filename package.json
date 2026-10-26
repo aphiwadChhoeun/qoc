@@ -1,0 +1,37 @@
+{
+  "name": "quests-over-coffee",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A web adaptation of the solo dice game Quests Over Coffee.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx scripts/engine.test.ts",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"scripts/**/*.ts\""
+  },
+  "keywords": [
+    "game",
+    "react",
+    "dice",
+    "quests-over-coffee"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/work-sans": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
