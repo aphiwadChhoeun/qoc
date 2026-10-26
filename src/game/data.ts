@@ -21,7 +21,7 @@ export const QUESTS: Record<QuestId, QuestCard> = {
     },
     special: {
       condition: { type: "exact", values: [1, 1, 1] },
-      label: "1 Â· 1 Â· 1",
+      label: "1 · 1 · 1",
       name: "You fell out of the tree.",
       text: "Lose 1 Health.",
       effects: { health: -1 },
@@ -177,7 +177,7 @@ export const QUESTS: Record<QuestId, QuestCard> = {
     },
     special: {
       condition: { type: "exact", values: [2, 3, 4] },
-      label: "2 Â· 3 Â· 4",
+      label: "2 · 3 · 4",
       name: "This was indeed their car.",
       text: "Gain 2 Money.",
       effects: { money: 2 },
